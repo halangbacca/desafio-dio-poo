@@ -11,10 +11,6 @@ public class Curso extends Conteudo {
         return XP_PADRAO * cargaHoraria;
     }
 
-    public Integer getCargaHoraria() {
-        return cargaHoraria;
-    }
-
     public void setCargaHoraria(Integer cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
@@ -27,5 +23,4 @@ public class Curso extends Conteudo {
                 ", cargaHoraria=" + cargaHoraria +
                 '}';
     }
-
 }
